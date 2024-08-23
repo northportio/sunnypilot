@@ -1,0 +1,16 @@
+version: "1"
+rules:
+  - base: master
+    upstream: sunnypilot:master
+    mergeMethod: merge
+    assignees:
+      - northportio
+    reviewers:
+      - northportio
+  - base: dev-c3
+    upstream: sunnypilot:dev-c3
+    mergeMethod: merge
+    assignees:
+      - northportio
+    reviewers:
+      - northportio
